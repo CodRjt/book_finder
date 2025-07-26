@@ -45,7 +45,7 @@ if search:
             st.image(row['image_url'])
         with col2:
             st.subheader(row['original_title'])
-            st.write(f"Author:{row['authors']}      score:{score}")
+            st.write(f"Author:{row['authors']}")
             st.write(f"Year:{row['original_publication_year']}")
             st.write(f"Language: {row['language_code']}")
             st.write(f"Ratings:{row['average_rating']}({row['ratings_count']}) rating")
