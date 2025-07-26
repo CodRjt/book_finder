@@ -1,8 +1,5 @@
 import streamlit as st 
 import pandas as pd
-import matplotlib.pyplot as plt
-import math
-from rapidfuzz import fuzz,process
 from sentence_transformers import SentenceTransformer,util
 from torch import topk
 st.title("Find me Book")
